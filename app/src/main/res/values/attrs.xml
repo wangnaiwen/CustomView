@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CustomView01属性 -->
+    <attr name="titleText" format="string"/>
+    <attr name="titleTextColor" format="color"/>
+    <attr name="titleTextSize" format="dimension"/>
+
+
+
+    <!-- CustomView01整个样式 -->
+    <declare-styleable name="CustomView01">
+        <attr name="titleText"/>
+        <attr name="titleTextColor"/>
+        <attr name="titleTextSize"/>
+    </declare-styleable>
+
+
+    <!-- CustomView02属性 -->
+    <attr name="borderColor" format="color"/>
+    <attr name="borderWidth" format="dimension"/>
+    <attr name="smallLength" format="dimension"/>
+    <attr name="largeLength" format="dimension"/>
+    <attr name="smallRadius" format="dimension"/>
+    <attr name="largeRadius" format="dimension"/>
+
+
+    <!-- CustomView02整个样式 -->
+    <declare-styleable name="CustomView02">
+        <attr name="borderColor"/>
+        <attr name="borderWidth"/>
+        <attr name="smallLength"/>
+        <attr name="largeLength"/>
+        <attr name="smallRadius"/>
+        <attr name="largeRadius"/>
+    </declare-styleable>
+
+
+</resources>
